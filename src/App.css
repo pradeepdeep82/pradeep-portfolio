@@ -1,38 +1,135 @@
-.App {
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.aboutMe{
+  background-color: black;
+  color: whitesmoke;
+}
+.menu{
+  padding-top: 30px;
+  text-align: center;
+}
+.menuData{
+  /* border: 1px solid #3b82f6; */
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+.menuData:hover{
+  cursor: pointer;
+  border-bottom:1px solid;
+  border-color: #3b82f6;
+}
+.menuIcon{
+  color: whitesmoke;
+  display: none;
+}
+.intro{
+  font-weight: bolder;
+  font-size:  50px;
+}
+
+.selfIntro{
+  text-align: center;
+  padding-top: 70px;
+  font-size: 27px;
+}
+.name{
+  font-size: 25px;
+  position: relative;
+  top:8px;
+}
+.pardeep{
+  color: #3b82f6;
+}
+.projectGitBtn{
+  text-align: center;
+  padding-bottom: 150px;
+}
+.gitbtn{
+  margin-left: 10px;
+}
+.topic{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+.mySkills{
+  background-color: white;
+  color: black;
+}
+.skillsLogo{
+ width: 65px;
+ background-color: white;
+}
+.logoWithTag{
+  text-align: center;
+}
+.logoWithTag:hover{
+   transition: 0.5s;
+   transform: scale(1.5);
+}
+.colleges{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 7%;
+  border: 1px ;
+}
+.cegLogo{
+  padding: 30px;
+}
+
+.msc{
+  padding-top: 9vh;
+  padding-left: 10vw;
+}
+.projectsWork{
+  background-color: black;
+}
+.contactMe{
+  margin-top: 8%;
+}
+.email{
+  border:1px ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+.emailIcon{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.emailIcon:hover{
+  transition: 0.5s;
+  transform: scale(1.3);
+}
+.sendMail{
+  border:1px ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+.footer{
+  background-color: black;
+  color: whitesmoke
+}
+.footer{
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 500px){
+  .menuIcon{
+    display:inline;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* .menuData{
+    display: none;
+  } */
 }
