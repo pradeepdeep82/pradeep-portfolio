@@ -18,6 +18,7 @@ export function ContactMe() {
           console.log(error.text);
       });
       e.target.reset();
+      alert("Your message have been sent, Thank you...")
   }
 
   return <div className="contactMe" id="contact">

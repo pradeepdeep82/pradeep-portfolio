@@ -13,7 +13,7 @@ import { MyEducation } from "./MyEducation";
 import { ProjectWork } from "./ProjectWork";
 import { MySkills } from "./MySkills";
 import { HashLink as Link } from "react-router-hash-link";
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 AOS.init();
 
@@ -55,27 +55,46 @@ function App() {
                 <HandymanIcon />
                 <span> Skills</span>
               </Link>
-              <Link smooth
+              <Link
+                smooth
                 to={"#projects"}
-                style={{ color: "whitesmoke", textDecoration: "none" }}className="menuData">
+                style={{ color: "whitesmoke", textDecoration: "none" }}
+                className="menuData"
+              >
                 <CodeIcon />
                 <span> Projects</span>
               </Link>
-              <Link smooth
+              <Link
+                smooth
                 to={"#education"}
-                style={{ color: "whitesmoke", textDecoration: "none" }}className="menuData">
+                style={{ color: "whitesmoke", textDecoration: "none" }}
+                className="menuData"
+              >
                 <SchoolIcon />
                 <span>Education</span>
               </Link>
-              <Link smooth
-                to={"#resume"}
-                style={{ color: "whitesmoke", textDecoration: "none" }}className="menuData">
-                <InsertDriveFileIcon />
-                <span> Resume</span>
-              </Link>
-              <Link smooth
+              
+                <a
+                  href="https://drive.google.com/file/d/1wuZHwFv7SCpXPlLubl2sFGF7wCKWRKIK/view?usp=sharing"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="menuData"
+                  style={{ color: "whitesmoke", textDecoration: "none" }}
+                >
+                  <InsertDriveFileIcon />
+                  <span> Resume</span>
+                </a>
+             
+              <Link
+                smooth
                 to={"#contact"}
-                style={{ color: "whitesmoke", textDecoration: "none",marginRight: "5vw" }} className="menuData">
+                style={{
+                  color: "whitesmoke",
+                  textDecoration: "none",
+                  marginRight: "5vw",
+                }}
+                className="menuData"
+              >
                 <EmailIcon />
                 <span> Contact</span>
               </Link>
@@ -90,10 +109,10 @@ function App() {
         </div>
         <div className="projectGitBtn">
           <Link smooth to={"#projects"}>
-          <button type="button" class="btn btn-primary btn">
-            <CodeIcon />
-            Projects
-          </button>
+            <button type="button" class="btn btn-primary btn">
+              <CodeIcon />
+              Projects
+            </button>
           </Link>
           <a
             href="https://github.com/pradeepdeep82"
@@ -106,7 +125,9 @@ function App() {
             </button>
           </a>
         </div>
-        <Link smooth to={"#"} ><KeyboardArrowUpIcon sx={{ fontSize: 40 }}className="upIcon"/></Link>
+        <Link smooth to={"#"}>
+          <KeyboardArrowUpIcon sx={{ fontSize: 40 }} className="upIcon" />
+        </Link>
       </div>
       <MySkills />
       <ProjectWork />
