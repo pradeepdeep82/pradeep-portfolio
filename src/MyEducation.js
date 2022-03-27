@@ -16,7 +16,7 @@ export function MyEducation() {
         </div>
         <div className="col-sm-9 msc">
           <p>2018</p>
-          <p>College of Engineering Guindy - Masters in Applied Geology</p>
+          <p>College of Engineering Guindy - Master's in Applied Geology</p>
           <strong>CGPA - 9.14/10</strong>
         </div>
       </div>
@@ -27,7 +27,7 @@ export function MyEducation() {
         </div>
         <div className="col-sm-9 msc">
           <p>2016</p>
-          <p>Presidency College - Masters in Applied Geology</p>
+          <p>Presidency College - Bachelor's in Geology</p>
           <strong>CGPA - 8.2/10</strong>
         </div>
       </div>
