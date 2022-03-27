@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import emailjs from '@emailjs/browser';
 
+
 export function ContactMe() {
   
   function sendEmail(e){
@@ -18,7 +19,11 @@ export function ContactMe() {
           console.log(error.text);
       });
       e.target.reset();
-      alert("Your message have been sent, Thank you...")
+      alert("Your message have been sent, Thank you!!!")
+      // <Alert severity="success">
+      //   <AlertTitle>Success</AlertTitle>
+      //   Your message have been sent — <strong>Thank you!!!</strong>
+      // </Alert>
   }
 
   return <div className="contactMe" id="contact">
