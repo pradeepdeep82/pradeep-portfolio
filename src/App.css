@@ -2,17 +2,20 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .aboutMe{
-  background-color: black;
+  background-color: #212529;
   color: whitesmoke;
+  height: 100vh;
 }
 .menu{
-  padding-top: 30px;
-  text-align: center;
+  justify-content: flex-end;
 }
 .menuData{
   /* border: 1px solid #3b82f6; */
   padding-top: 20px;
   margin-bottom: 25px;
+  position: relative;
+  right: 0px;
+  margin-left: 50px;
 }
 .menuData:hover{
   cursor: pointer;
@@ -23,6 +26,10 @@ body{
   color: whitesmoke;
   display: none;
 }
+.navBar{
+  position: sticky;
+  top: 0px;
+}
 .intro{
   font-weight: bolder;
   font-size:  50px;
@@ -30,8 +37,9 @@ body{
 
 .selfIntro{
   text-align: center;
-  padding-top: 70px;
+  padding-top: 25vh;
   font-size: 27px;
+
 }
 .name{
   font-size: 25px;
@@ -47,6 +55,13 @@ body{
 }
 .gitbtn{
   margin-left: 10px;
+}
+.upIcon{
+  position: fixed;
+  left: 10px;
+  bottom: 30px;
+  background-color: #3b82f6;
+  color: whitesmoke;
 }
 .topic{
   text-align: center;
@@ -84,8 +99,8 @@ body{
   padding-top: 9vh;
   padding-left: 10vw;
 }
-.projectsWork{
-  background-color: black;
+.projectWork{
+  background-color: #212529;
 }
 .contactMe{
   margin-top: 8%;
@@ -115,7 +130,7 @@ body{
   margin-top: 30px;
 }
 .footer{
-  background-color: black;
+  background-color: #212529;
   color: whitesmoke
 }
 .footer{
@@ -125,11 +140,3 @@ body{
   text-align: center;
 }
 
-@media screen and (max-width: 500px){
-  .menuIcon{
-    display:inline;
-  }
-  /* .menuData{
-    display: none;
-  } */
-}
