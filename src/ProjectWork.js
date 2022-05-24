@@ -2,8 +2,7 @@ import toDoAppImage from "./logo/to-do-app-screenshot.PNG";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import weatherAppImage from "./logo/weather-app-screenshot.PNG";
-import movieAppImage from "./logo/Basic-movie-app-screenshot.PNG";
-import covid19App from "./logo/covid-19-report-app-screenshot.PNG";
+
 
 export function ProjectWork() {
   return (
