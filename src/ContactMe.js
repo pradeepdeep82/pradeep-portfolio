@@ -32,7 +32,7 @@ export function ContactMe() {
       <span style={{ paddingLeft: "8px", color: "#3b82f6" }}>Me</span>
     </div>
     <div className="row" style={{ textAlign: "center" }}>
-      <div className="col-sm-3 email" data-aos="zoom-out-right">
+      <div className="col-sm-3 email" data-aos="fade-up">
         <EmailIcon
           sx={{ fontSize: 70, color: "#3b82f6" }}
           className="emailIcon" />
@@ -41,7 +41,7 @@ export function ContactMe() {
         </h5>
         <p>pradeepdeep82@gmail.com</p>
       </div>
-      <div className="col-sm-3 email" data-aos="zoom-out-down">
+      <div className="col-sm-3 email" data-aos="fade-up">
         <GitHubIcon
           sx={{ fontSize: 70, color: "#3b82f6" }}
           className="emailIcon" />
@@ -58,7 +58,7 @@ export function ContactMe() {
         </a>
       </div>
 
-      <div className="col-sm-3 email" data-aos="zoom-out-left">
+      <div className="col-sm-3 email" data-aos="fade-up">
         <LinkedInIcon
           sx={{ fontSize: 70, color: "#3b82f6" }}
           className="emailIcon" />
@@ -75,7 +75,7 @@ export function ContactMe() {
         </a>
       </div>
     </div>
-    <div className="row">
+    <div className="row" style={{width:"100%"}}>
       <div className="col-sm-6 sendMail" data-aos="zoom-in">
         <div className="topic">
           <span style={{ color: "black" }}>Send</span>

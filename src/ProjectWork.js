@@ -76,70 +76,8 @@ export function ProjectWork() {
           </a>
         </div>
       </div>
-      <div className="row" style={{ marginTop: "40px" }} data-aos="zoom-in">
-        <div className="offset-sm-1 col-sm-5">
-          <img src={movieAppImage} alt="movieApp" width="100%"></img>
-        </div>
-        <div className="col-sm-5" style={{ color: "whitesmoke" }}>
-          <h4>Basic IMDB Rating App</h4>
-          <p>
-            <span style={{ color: "gray" }}>Mad with: </span>React, JavaScript,
-            Bootstrap
-          </p>
-          <a
-            href="https://movies-react-app-pradeep.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="button" class="btn btn-primary btn">
-              <YouTubeIcon />
-              <span>Demo</span>
-            </button>
-          </a>
-          <a
-            href="https://github.com/pradeepdeep82/movie-reactapp"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
-              Code
-            </button>
-          </a>
-        </div>
-      </div>
-      <div className="row" style={{ marginTop: "40px",paddingBottom:"50px" }} data-aos="zoom-in">
-        <div className="offset-sm-1 col-sm-5">
-          <img src={covid19App} alt="covid-19-app" width="100%"></img>
-        </div>
-        <div className="col-sm-5" style={{ color: "whitesmoke" }}>
-          <h4>Covid-19 Report App</h4>
-          <p>
-            <span style={{ color: "gray" }}>Mad with: </span>HTML, CSS, JavaScript,
-            Bootstrap
-          </p>
-          <a
-            href="https://covid-19-report-app.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="button" class="btn btn-primary btn">
-              <YouTubeIcon />
-              <span>Demo</span>
-            </button>
-          </a>
-          <a
-            href="https://github.com/pradeepdeep82/Covid-19-Report-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="button" class="btn btn-outline-primary btn gitbtn">
-              <GitHubIcon />
-              Code
-            </button>
-          </a>
-        </div>
-      </div>
+
+
     </div>
   );
 }

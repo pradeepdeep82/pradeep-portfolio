@@ -1,10 +1,18 @@
-body{
+html,body{
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    display: inline;
 }
+
 .aboutMe{
   background-color: #212529;
   color: whitesmoke;
   height: 100vh;
+  
 }
 .menu{
   justify-content: flex-end;
@@ -16,11 +24,14 @@ body{
   position: relative;
   right: 0px;
   margin-left: 50px;
+
 }
 .menuData:hover{
   cursor: pointer;
   border-bottom:1px solid;
   border-color: #3b82f6;
+  background-size: 100% 5px, auto;
+ 
 }
 .menuIcon{
   color: whitesmoke;
@@ -93,17 +104,19 @@ body{
 }
 .cegLogo{
   padding: 30px;
+  padding-left: 15vw;
 }
 
 .msc{
   padding-top: 9vh;
-  padding-left: 10vw;
+  padding-left: 20vw;
 }
 .projectWork{
   background-color: #212529;
 }
 .contactMe{
   margin-top: 8%;
+  width: 100%;
 }
 .email{
   border:1px ;
@@ -129,11 +142,11 @@ body{
   margin: auto;
   margin-top: 30px;
 }
+
 .footer{
+  width: 100%;
   background-color: #212529;
-  color: whitesmoke
-}
-.footer{
+  color: whitesmoke;
   margin-top: 60px;
   padding-top: 60px;
   padding-bottom: 60px;

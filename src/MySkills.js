@@ -30,7 +30,7 @@ export function MySkills() {
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img className="skillsLogo" src={cssLogo} alt="cssLogo" />
-            <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>CSS</p>
+            <p style={{ paddingLeft: "2px", paddingTop: "10px" }}>CSS</p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img

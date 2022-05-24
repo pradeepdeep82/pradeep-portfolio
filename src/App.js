@@ -14,6 +14,7 @@ import { ProjectWork } from "./ProjectWork";
 import { MySkills } from "./MySkills";
 import { HashLink as Link } from "react-router-hash-link";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import Particle from "./Component/Particle";
 
 AOS.init();
 
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="Container-fluid">
       <div className="aboutMe" id="#">
+        <Particle/>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark navBar">
           <div style={{ marginLeft: "3vw" }}>
             <span className="name">Pradeep Ganapathi</span>
