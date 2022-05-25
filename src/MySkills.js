@@ -10,7 +10,8 @@ import expressLogo from "./logo/express-js-seeklogo.com.svg";
 import mongoLogo from "./logo/mongodb-icon-1.svg";
 import firebaseLogo from "./logo/firebase-seeklogo.com.svg";
 import awsLogo from "./logo/aws-2.svg";
-
+import AOS from "aos";
+AOS.init();
 
 export function MySkills() {
   return (

@@ -7,6 +7,7 @@ import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import AOS from "aos";
+import{AboutMe} from "./AboutMe"
 import { ContactMe } from "./ContactMe";
 import { Footer } from "./Footer";
 import { MyEducation } from "./MyEducation";
@@ -21,10 +22,11 @@ AOS.init();
 function App() {
   return (
     <div className="Container-fluid">
+      
       <div className="aboutMe" id="#">
-        <Particle/>
+      <Particle/>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark navBar">
-          <div style={{ marginLeft: "3vw" }}>
+          <div style={{ marginLeft: "3vw" }} >
             <span className="name">Pradeep Ganapathi</span>
             <p style={{ color: "#3b82f6" }}>Full Stack Web Developer</p>
           </div>
@@ -104,7 +106,7 @@ function App() {
           </div>
         </nav>
         <div className="row selfIntro">
-          <span className="intro">
+          <span className="intro" >
             Hi, I'm <span className="pardeep">Pradeep</span>
           </span>
           <p>I enjoy to build responsive Web Applications</p>
@@ -134,6 +136,7 @@ function App() {
       <MySkills />
       <ProjectWork />
       <MyEducation />
+      <AboutMe/>
       <ContactMe />
       <Footer />
     </div>

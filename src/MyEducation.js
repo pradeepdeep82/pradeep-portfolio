@@ -1,8 +1,11 @@
 import cegLogo from "./logo/CEG_main_logo.png";
 import presidencyLogo from "./logo/Presidency-collegechennai.png";
+import AOS from "aos";
+AOS.init();
 
 export function MyEducation() {
   return <div className="myEducation" id="education">
+    
     <div className="topic" data-aos="zoom-in">
       <span>My</span>
       <span style={{ paddingLeft: "8px", color: "#3b82f6" }}>
@@ -10,7 +13,7 @@ export function MyEducation() {
       </span>
     </div>
     <div className="colleges">
-      <div className="row" data-aos="zoom-in-up">
+      <div className="row" data-aos="zoom-in">
         <div className="col-sm-3 cegLogo">
           <img src={cegLogo} alt="ceg logo" />
         </div>
@@ -21,7 +24,7 @@ export function MyEducation() {
         </div>
       </div>
       <hr />
-      <div className="row" data-aos="zoom-in-up">
+      <div className="row" data-aos="zoom-in" style={{marginBottom:"10vh"}}>
         <div className="col-sm-3 cegLogo">
           <img src={presidencyLogo} alt="prsidency logo" />
         </div>

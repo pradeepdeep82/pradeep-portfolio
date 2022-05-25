@@ -5,7 +5,8 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import emailjs from '@emailjs/browser';
-
+import AOS from "aos";
+AOS.init();
 
 export function ContactMe() {
   
