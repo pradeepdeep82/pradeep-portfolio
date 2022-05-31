@@ -16,6 +16,7 @@ import { MySkills } from "./MySkills";
 import { HashLink as Link } from "react-router-hash-link";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Particle from "./Component/Particle";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 AOS.init();
 
@@ -79,7 +80,7 @@ function App() {
               </Link>
               
                 <a
-                  href="https://drive.google.com/file/d/1wuZHwFv7SCpXPlLubl2sFGF7wCKWRKIK/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Es88lHILU0Db0D2NaMhZeftPzPbUPDUf/view?usp=sharing"
                   rel="noreferrer"
                   target="_blank"
                   className="menuData"
@@ -105,6 +106,29 @@ function App() {
             </div>
           </div>
         </nav>
+        <div className="contactIconInAboutMe"> 
+        <a
+          href="https://www.linkedin.com/in/pradeep-ganapathi-010134141/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ textDecoration: "none" }}
+        >
+         <LinkedInIcon
+          sx={{ fontSize: 60, color: "whitesmoke" }}
+          className="emailIcon" />
+        </a><br/>
+        <a
+          href="https://github.com/pradeepdeep82"
+          target="_blank"
+          rel="noreferrer"
+          style={{ textDecoration: "none" }}
+        >
+        <GitHubIcon
+          sx={{ fontSize: 60, color: "whitesmoke" }}
+          className="emailIcon" />
+        </a>
+        </div>
+        
         <div className="row selfIntro">
           <span className="intro" >
             Hi, I'm <span className="pardeep">Pradeep</span>
