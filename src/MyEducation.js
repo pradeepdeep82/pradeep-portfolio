@@ -20,7 +20,7 @@ export function MyEducation() {
         <div className="col-sm-9 msc">
           <p>2018</p>
           <p>College of Engineering Guindy - Master's in Applied Geology</p>
-          <strong>CGPA - 9.14/10</strong>
+          <strong>CGPA - 9.3/10</strong>
         </div>
       </div>
       <hr />
