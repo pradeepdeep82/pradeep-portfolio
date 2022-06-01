@@ -161,10 +161,14 @@ html,body{
 }
 .contactIconInAboutMe{
   position: absolute;
+  left: 10px;
 }
 @media only screen and (max-width:430px) {
   .moblieView{
     padding-left: 65px;
     padding-right: 55px;
+  }
+  .intro{
+    font-size: 65px;
   }
 }
