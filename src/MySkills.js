@@ -64,7 +64,7 @@ export function MySkills() {
         </div>
         <div className="row" data-aos="zoom-in">
           <div
-            className="offset-sm-3 col-sm-1 logoWithTag"
+            className="offset-sm-4 col-sm-1 logoWithTag"
             style={{ marginTop: "70px" }}
           >
             <img className="skillsLogo" src={gitLogo} alt="gitLogo" />
@@ -89,14 +89,14 @@ export function MySkills() {
             <img className="skillsLogo" src={mongoLogo} alt="mongo db" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>mongoDB</p>
           </div>
-          <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
+          {/* <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img className="skillsLogo" src={firebaseLogo} alt="firebaseLogo" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>Firebase</p>
           </div>
           <div className="col-sm-1 logoWithTag" style={{ marginTop: "70px" }}>
             <img className="skillsLogo" src={awsLogo} alt="awsLogo" />
             <p style={{ paddingLeft: "13px", paddingTop: "10px" }}>AWS</p>
-          </div>
+          </div> */}
         </div>
       </div>
       
