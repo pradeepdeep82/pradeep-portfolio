@@ -79,8 +79,8 @@ function App() {
                 <span>Education</span>
               </Link>
               
-                <a
-                  href="https://drive.google.com/file/d/1Es88lHILU0Db0D2NaMhZeftPzPbUPDUf/view?usp=sharing"
+                <a 
+                  href="https://drive.google.com/file/d/1xSJw77SrJFebQa2oyJ-5UnLAsus9EiD2/view?usp=sharing"
                   rel="noreferrer"
                   target="_blank"
                   className="menuData"
