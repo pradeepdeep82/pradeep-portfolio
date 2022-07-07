@@ -43,7 +43,7 @@ export default function Particle() {
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 3,
           },
           repulse: {
             distance: 200,
@@ -57,7 +57,7 @@ export default function Particle() {
         },
         links: {
           color: "#ffffff",
-          distance: 135,
+          distance: 150,
           enable: true,
           opacity: 1,
           width: 1,
@@ -72,7 +72,7 @@ export default function Particle() {
             default: "bounce",
           },
           random: false,
-          speed: 1.8,
+          speed: 0.7,
           straight: false,
         },
         number: {
@@ -80,7 +80,7 @@ export default function Particle() {
             enable: true,
             area: 800,
           },
-          value: 80,
+          value: 50,
         },
         opacity: {
           value: 0.5,
